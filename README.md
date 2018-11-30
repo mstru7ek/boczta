@@ -1,15 +1,19 @@
 
+## Chrome Webbrowser History Registry - Spring Boot Rest, Kotlin 
+
+
 server.port: 8013
 
-# First initialization
-java -jar build/libs/boczta-0.0.1-SNAPSHOT.jar --spring.jpa.hibernate.ddl-auto=create-drop
+### First initialization
+  java -jar build/libs/boczta-0.0.1-SNAPSHOT.jar --spring.jpa.hibernate.ddl-auto=create-drop
 
-# Normal mode
-java -jar build/libs/boczta-0.0.1-SNAPSHOT.jar
-
-
+### Normal mode
+  java -jar build/libs/boczta-0.0.1-SNAPSHOT.jar
 
 
+
+
+## Systemctl service
 
 [Unit]
 Description=boczta
